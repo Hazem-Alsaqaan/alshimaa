@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/alshimaa/static/css/main.f56e241e.css",
+    "main.js": "/alshimaa/static/js/main.9aca0072.js",
+    "static/js/787.53f5974b.chunk.js": "/alshimaa/static/js/787.53f5974b.chunk.js",
+    "static/media/14.jpg": "/alshimaa/static/media/14.2f04e54781558795ec7f.jpg",
+    "static/media/13.jpg": "/alshimaa/static/media/13.55d0daf739d6fb299baf.jpg",
+    "static/media/12.jpg": "/alshimaa/static/media/12.86afd29ba1bd5815665a.jpg",
+    "static/media/15.jpg": "/alshimaa/static/media/15.fffd9d5addf5dfad8429.jpg",
+    "static/media/11.jpg": "/alshimaa/static/media/11.15cf096b7b069583e2f7.jpg",
+    "static/media/009.jpg": "/alshimaa/static/media/009.eca96f3d7c4e168386fa.jpg",
+    "static/media/10.jpg": "/alshimaa/static/media/10.541292deabc8735c825b.jpg",
+    "index.html": "/alshimaa/index.html",
+    "main.f56e241e.css.map": "/alshimaa/static/css/main.f56e241e.css.map",
+    "main.9aca0072.js.map": "/alshimaa/static/js/main.9aca0072.js.map",
+    "787.53f5974b.chunk.js.map": "/alshimaa/static/js/787.53f5974b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f56e241e.css",
+    "static/js/main.9aca0072.js"
+  ]
+}
