@@ -1,0 +1,98 @@
+.main-header {
+    background-color: var(--light);
+    height: 55px;
+    min-width: 100vw;
+    position: fixed;
+    z-index: 1;   
+    box-shadow: 0px 0px 16px -8px #333;
+}
+.header-container {
+    position: relative;   
+    padding: 5px 0px;
+}
+.header-container nav {
+    display: flex;
+}
+
+/* end header logo */
+/* start header nav */
+.header-container nav {
+    display: flex;
+}
+.nav-items {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 25px;
+    animation-name: transiteUp;
+    animation-duration: 1.5s;
+}
+.nav-items ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.nav-items ul a{
+    text-decoration: none;
+}
+.nav-items ul li {
+    display: flex;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: var(--mainColor);
+    font-weight: 500;
+}
+.navBars{
+    margin: 5px 20px;
+    color: var(--mainColor);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 498px){
+    .nav-items {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        width: 100%;
+        margin: 0px;
+        background-color: var(--light);
+        display: none;
+    }
+    .navBars{
+        display: block;
+    }
+    .header-container nav {
+        justify-content: space-around;
+    }
+    .nav-items ul {
+        flex-direction: column;
+    }
+    .nav-items ul a {
+        border-bottom: 3px solid #eee;
+    }
+    .nav-items ul a:hover {
+        background-color: white;
+        transition-duration: .8s;
+    }
+    .nav-items ul a li:hover {
+        transform: translateX(15px);
+        transition-duration: .8s;
+    }
+}
+.show{
+    display: block;
+}
+
+@keyframes transiteUp {
+    from{
+        transform: translateY(100vh);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,33 @@
+/* start header logo */
+.header-logo {
+    display: flex;
+    align-items: center; 
+    position: relative;   
+}
+.header-logo::after {
+    content: "";
+    position: absolute; 
+    bottom: 12px;
+    right: -8px;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: var(--secondColor); 
+}
+.header-logo h1,
+.header-logo span {
+    font-family: var(--logoFont);
+    text-transform: lowercase;
+    font-size: 25px;
+}
+.header-logo h1{
+    color: var(--veryDarkMain);
+    margin-bottom: 0px;
+    font-style: italic;
+}
+.header-logo span{
+    background-color: var(--darkMainColor);
+    color: white;
+    border-radius: 100% 30%;
+    padding: 3px 5px;
+}

@@ -1,0 +1,10 @@
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: var(--darkMainColor);
+}
+.footer div{
+    width: fit-content;
+    background-color: var(--light);
+    padding: 0px 10px;
+}

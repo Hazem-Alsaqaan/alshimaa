@@ -1,0 +1,75 @@
+
+/* main box */
+.box {
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 16px -4px #8a8a8a;
+    border-radius: 8px 8px;
+    max-width: 500px;
+}
+/* head box section */
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-box .offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumseagreen;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 5px;
+    width: fit-content;
+    border-radius: 5px 5px;
+}
+.head-box .heart {
+    background-color: #f1f1f1;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-box svg {
+    color: mediumseagreen;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.head-box svg:hover {
+    color: var(--secondColor);
+}
+/* img section */
+.img-box {
+    display: flex;
+    justify-content: center;
+}
+.img-box svg {
+    color: var(--secondColor);
+    font-size: 50px;
+}
+/* text section */
+
+.box .text-box p {
+    margin: 0px;
+    font-size: 20px;
+}
+.box .text-box p:last-child, 
+.box .text-box p:first-child {
+    font-weight: bold;
+}
+.box .text-box p:first-child {
+    margin: 10px 0px;
+}
+.box .text-box h6{
+    background-color: var(--mainColor);
+    color: white;
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
