@@ -4,6 +4,13 @@ import slider002 from "./src/assets/pictures/slider002.jpg";
 import slider003 from "./src/assets/pictures/slider003.jpg";
 import slider004 from "./src/assets/pictures/slider004.jpg";
 import slider005 from "./src/assets/pictures/slider005.jpg";
+import fruit001 from "./src/assets/pictures/fruit001.png";
+import fruit002 from "./src/assets/pictures/fruit002.png";
+import fruit003 from "./src/assets/pictures/fruit003.png";
+import fruit004 from "./src/assets/pictures/fruit004.png";
+import fruit005 from "./src/assets/pictures/fruit005.png";
+import fruit006 from "./src/assets/pictures/fruit006.png";
+import fruit007 from "./src/assets/pictures/fruit007.png";
 const sliderImages = [
   {
     id: 1,
@@ -224,7 +231,7 @@ const vegetablesData = [
 const fruitsData = [
   {
     id: 10,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698151/alshimaa/novel-removebg-preview_uk3aut.png",
+    url: fruit001,
     product_name: "Navel",
     description: ` Lower acid content than most orange varieties , easily peeled , excellent flavor, earliest maturing. Citrus fruits are full of great health benefits.`,
     hs_code: "080510",
@@ -244,7 +251,7 @@ const fruitsData = [
   },
   {
     id: 11,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698152/alshimaa/baladi-removebg-preview_jmfu5t.png",
+    url: fruit002,
     product_name: "Baladi",
     description: ` Juice orange, similar to Valencia, Lower sugar, Medium vigor. Citrus fruits are full of great health benefits.`,
     hs_code: "080510",
@@ -263,7 +270,7 @@ const fruitsData = [
   },
   {
     id: 12,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698154/alshimaa/sweety-removebg-preview_nrkepr.png",
+    url: fruit003,
     product_name: "Sweety",
     description: `High sugars , very good mid-season orange.Medium vigor, good produce,full of great health benefits.`,
     hs_code: "080510",
@@ -285,7 +292,7 @@ const fruitsData = [
   },
   {
     id: 13,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698156/alshimaa/Valencia-removebg-preview_jqzmbh.png",
+    url: fruit004,
     product_name: "Valencia",
     description: ` Excellent for eating & juice , Very juicy and sweety last orange variety for Egyptian orange season.Citrus fruits are full of great health benefits.`,
     hs_code: "080510",
@@ -312,7 +319,7 @@ const fruitsData = [
 
   {
     id: 14,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698039/alshimaa/1254-removebg-preview_b5jizl.png",
+    url: fruit005,
     product_name: "Watermelon",
     description: `Egyptian watermelon is characterized by its excellent quality and delicious flavor, making it highly sought after in international markets. It also has a large size, with the weight of Egyptian watermelons ranging from 5 to 15 kilograms, making them ideal for export. Additionally, it contains a high water content, making it refreshing and hydrating, which appeals to consumers`,
     hs_code: "080711",
@@ -332,7 +339,7 @@ const fruitsData = [
 
   {
     id: 15,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698039/alshimaa/pngwing.com_2_pw5z1x.png",
+    url: fruit006,
     product_name: "Mango",
     description: ` Delicious Taste: Known for its sweet and aromatic flavor. Nutrient-Rich: Contains vitamins such as C and A, along with antioxidants.Promotes Digestive Health: High in fiber, aiding in digestion.`,
     hs_code: "080450",
@@ -351,7 +358,7 @@ const fruitsData = [
   },
   {
     id: 16,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698039/alshimaa/12571-removebg-preview_hcar5r.png",
+    url: fruit007,
     product_name: "pomegranate",
     description: `The Egyptian pomegranate is considered one of the best types 
 of pomegranates in the world, thanks to its high quality, 
