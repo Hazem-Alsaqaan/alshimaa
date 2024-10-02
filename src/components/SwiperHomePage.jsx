@@ -21,7 +21,7 @@ export default function SwiperHomePage() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
   return (
-    <>
+    <div className="bg-emerald-900">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -55,6 +55,6 @@ export default function SwiperHomePage() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }
