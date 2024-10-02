@@ -1,25 +1,29 @@
 import member from "./src/assets/pictures/man_8526419.png";
-
+import slider001 from "./src/assets/pictures/slider001.jpg";
+import slider002 from "./src/assets/pictures/slider002.jpg";
+import slider003 from "./src/assets/pictures/slider003.jpg";
+import slider004 from "./src/assets/pictures/slider004.jpg";
+import slider005 from "./src/assets/pictures/slider005.jpg";
 const sliderImages = [
   {
     id: 1,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727582344/alshimaa/001_smvva5.jpg",
+    url: slider001,
   },
   {
     id: 2,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727582318/alshimaa/004_ee2y2z.jpg",
+    url: slider002,
   },
   {
     id: 3,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727668559/alshimaa/JBO_EGY19_05318-660x371_tgwnas.jpg",
+    url: slider003,
   },
   {
     id: 4,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727582329/alshimaa/007_m1lzgt.jpg",
+    url: slider004,
   },
   {
     id: 5,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727668663/alshimaa/4673_waclfh.jpg",
+    url: slider005,
   },
 ];
 
