@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "OpenSansRegular";
+  src: local("OpenSans-Regular"), url("./assets/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansMedium";
+  src: local("OpenSans-Medium"), url("./assets/fonts/OpenSans-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSansSemiBold";
+  src: local("OpenSans-SemiBold"), url("./assets/fonts/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: local("OpenSans-Bold"), url("./assets/fonts/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: local("OpenSans-ExtraBold"), url("./assets/fonts/OpenSans-ExtraBold.ttf") format("truetype");
+}
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0px;
+  padding: 0px; 
+  font-family: "OpenSansMedium"; 
+}
+h1,h2,h3,h4,h5,h6, p{
+  margin: 0;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: inherit;
+}
+a.active{
+  color: "#22c55e"
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color:   rgb(245 245 244);
+  box-shadow: 0px 0px 3px 0px inset;
+}
+::-webkit-scrollbar-thumb{
+  background-color:    rgb(214 211 209);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px inset;
+}
+::selection{
+  background-color: #22c55e;
+  color: white;
+}
+.pending{
+  color: black;
+}
+.active{
+  color: #22c55e;
+}
+/* styles specific for swiper library */
+.swiper-slide {
+  height: calc(100vh - 64px);
+}
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover !important;
+}
+
+.autoplay-progress{
+  height: 0px;
+}
+.swiper-pagination-bullet-active{
+  background-color: #22c55e !important;
+}
+.swiper-pagination{
+  z-index: 12 !important;
+}
+.swiper-button-prev,
+.swiper-button-next{
+  color: #22c55e;
+  z-index: 12 !important;
+}
