@@ -11,6 +11,15 @@ import fruit004 from "./src/assets/pictures/fruit004.png";
 import fruit005 from "./src/assets/pictures/fruit005.png";
 import fruit006 from "./src/assets/pictures/fruit006.png";
 import fruit007 from "./src/assets/pictures/fruit007.png";
+import veg001 from "./src/assets/pictures/veg001.png";
+import veg002 from "./src/assets/pictures/veg002.png";
+import veg003 from "./src/assets/pictures/veg003.png";
+import veg004 from "./src/assets/pictures/veg004.png";
+import veg005 from "./src/assets/pictures/veg005.png";
+import veg006 from "./src/assets/pictures/veg006.png";
+import veg007 from "./src/assets/pictures/veg007.png";
+import veg008 from "./src/assets/pictures/veg008.png";
+import veg009 from "./src/assets/pictures/veg009.png";
 const sliderImages = [
   {
     id: 1,
@@ -37,7 +46,7 @@ const sliderImages = [
 const vegetablesData = [
   {
     id: 1,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683938/alshimaa/potato75457_wifrhm.png",
+    url: veg001,
     product_name: "potatoes",
     description:
       "The Egyptian potatoes are well-known of its good quality whether for the potatoes grown in clay or sandy soil , also well-known of its ability for preservation , the level of solidity and sugar for a period that exceeds twenty days from the day of harvest.",
@@ -57,7 +66,7 @@ const vegetablesData = [
   },
   {
     id: 2,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683939/alshimaa/red_onion_izfeij.png",
+    url: veg002,
     product_name: "Red Onion",
     description:
       "The Red onion is a cured bulb onion with a deep purple, papery outer skin and slightly red tinted flesh. Red onion’s flavor ranges from sweet to pungent depending on its age and variety. This onion’s layers are thinner and crunchier compared to other onion varieties and therefore most commonly used for raw preparations.",
@@ -77,7 +86,7 @@ const vegetablesData = [
   },
   {
     id: 3,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683987/alshimaa/1-onion-png-image_if7nvq.png",
+    url: veg003,
     product_name: "Golden Onions",
     description:
       "Onions are a good source of vitamin C and help boost immunity with their many health properties. They contain chromium, which assists in regulating blood sugar and for centuries, onions have been used to reduce inflammation and heal infections",
@@ -97,7 +106,7 @@ const vegetablesData = [
   },
   {
     id: 4,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683939/alshimaa/garlic_nmucft.png",
+    url: veg004,
     product_name: "Garlic",
     description:
       "Egypt occupies the third place in the production and export of garlic worldwide and one of the most famous cultivars in Egypt is white garlic and red (Chinese) and is exported fresh and dried. Garlic Improves Cholesterol Levels, Which May Lower the Risk of Heart Disease , It consists of several lobes , It has thick striped leaves that have a distinctive strong smell and Have strong taste .",
@@ -117,7 +126,7 @@ const vegetablesData = [
   },
   {
     id: 5,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727684459/alshimaa/pngwing.com_1_yhu0ca.png",
+    url: veg005,
     product_name: "sweet patato",
     description:
       "Sweet potatoes are known for their sweet taste and creamy texture. They are rich in nutrients, including vitamins A and C, and dietary fiber. Additionally, they contain antioxidants, which help reduce the risk of chronic diseases. Versatility: Sweet potatoes can be cooked, baked, or used in desserts, making them suitable for a wide variety of dishes.",
@@ -138,7 +147,7 @@ const vegetablesData = [
   },
   {
     id: 6,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727684210/alshimaa/pngwing.com_zukyag.png",
+    url: veg006,
     product_name: "carrot",
     description:
       "The sweet flavor of Egyptian carrots makes them a favorite in global markets. They are distinguished by their bright orange color, which enhances their appeal. Egyptian carrots have excellent storage capacity, making them ideal for export. They are rich in Vitamin A, fiber, and beta-carotene, making them a healthy and nutritious food.",
@@ -158,7 +167,7 @@ const vegetablesData = [
   },
   {
     id: 7,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727767791/alshimaa/pngwing.com_3_y9rccx.png",
+    url: veg007,
     product_name: " Iceberg lettuce",
     description:
       " Lettuce iceberg is one of the main constituents in salads and is known for its crunchy texture. It has comparatively less nutrients than the other greens that you may find in salads",
@@ -180,7 +189,7 @@ const vegetablesData = [
   },
   {
     id: 8,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683938/alshimaa/lemon2222_qqpt13.png",
+    url: veg008,
     product_name: "Lemon",
     description:
       "Fruit medium-small size, elliptical to oblong commonly with short neck or low collar at base, seeds content variable but usually few to none, Color yellow at maturity.",
@@ -200,7 +209,7 @@ const vegetablesData = [
   },
   {
     id: 9,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727768509/alshimaa/pngwing.com_4_u5zoue.png",
+    url: veg009,
     product_name: " Frozen French fries",
     description:
       "Produced from carefully selected potatoes, ensuring a distinctive taste and texture. They are also easy to prepare, as they can be fried or baked directly from the freezer without the need to thaw. They can be stored for long periods in the freezer, making them convenient for use at any time.",
@@ -447,72 +456,3 @@ const employeesData = [
   },
 ];
 export { sliderImages, vegetablesData, fruitsData, allProducts, employeesData };
-
-// const vegetablesData = [
-//   {
-//     id: 1,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772390/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_8_yhgqwu.jpg`,
-//   },
-//   {
-//     id: 2,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772390/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_9_chvulz.jpg`,
-//   },
-//   {
-//     id: 3,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772390/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_10_skjr2z.jpg`,
-//   },
-//   {
-//     id: 4,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772391/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_11_cdoe4o.jpg`,
-//   },
-//   {
-//     id: 5,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772391/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_12_mdy9ry.jpg`,
-//   },
-//   {
-//     id: 6,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772391/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_13_tusbjv.jpg`,
-//   },
-//   {
-//     id: 7,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772391/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_14_g0ptfv.jpg`,
-//   },
-//   {
-//     id: 8,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772391/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_15_zku0ad.jpg`,
-//   },
-//   {
-//     id: 9,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772394/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_16_xci941.jpg`,
-//   },
-// ];
-// const fruitsData = [
-//   {
-//     id: 10,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772688/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_18_scdqcn.jpg`,
-//   },
-//   {
-//     id: 11,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772688/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_19_gh3vf3.jpg`,
-//   },
-//   {
-//     id: 12,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772689/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_20_vp9egy.jpg`,
-//   },
-//   {
-//     id: 13,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772689/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_21_dekaxp.jpg`,
-//   },
-//   {
-//     id: 14,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772690/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_22_ilr6e6.jpg`,
-//   },
-//   {
-//     id: 15,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772692/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_23_czsyht.jpg`,
-//   },
-//   {
-//     id: 16,
-//     url: `https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727772692/alshimaa/1727771184519-8b681b21-e209-4624-8d27-3d9d60a6c938_24_tj9gwc.jpg`,
-//   },
-// ];
