@@ -4,8 +4,15 @@ import AboutPage from "./AboutPage";
 import ServicesPage from "./ServicesPage";
 import ProductsPage from "./ProductsPage";
 import ContactUsPage from "./ContactUsPage";
+import { useEffect } from "react";
 
 function HomePage() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <>
       <div className="min-h-screen pt-16">

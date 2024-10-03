@@ -1,5 +1,12 @@
+import { useEffect } from "react";
 import SectionTitle from "../components/SectionTitle";
 function AboutPage() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="min-h-screen px-16 py-24 bg-green-50 max-md:px-6">
       <SectionTitle title={"About us"} />

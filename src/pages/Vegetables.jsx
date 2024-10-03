@@ -1,8 +1,15 @@
+import { useEffect } from "react";
 import { vegetablesData } from "../../staticData.js";
 import ProductCard from "../components/ProductCard";
 import SectionTitle from "../components/SectionTitle";
 function Vegetables() {
   const products = vegetablesData;
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="min-h-screen px-16 py-24 max-md:px-6 max-sm:px-2 bg-neutral-50 ">
       <SectionTitle title={"Vegetables"} />

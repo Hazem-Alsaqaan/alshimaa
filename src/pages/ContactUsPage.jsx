@@ -4,9 +4,16 @@ import TeamMember from "../components/TeamMember";
 import facebook_icon from "../assets/pictures/facebook_2504903.png";
 import whatsapp_icon from "../assets/pictures/whatsapp_2504957.png";
 import mail_icon from "../assets/pictures/mail_2772369.png";
+import { useEffect } from "react";
 
 function ContactUsPage() {
   const employees = employeesData;
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="min-h-screen bg-neutral-50 px-16 py-24 max-md:px-6 max-sm:px-2">
       <SectionTitle title={"Contact US"} />

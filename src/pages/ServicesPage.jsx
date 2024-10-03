@@ -4,6 +4,7 @@ import Production from "../assets/pictures/Production.png";
 import Shipping from "../assets/pictures/Shipping.png";
 import ServiceCard from "../components/ServiceCard";
 import SectionTitle from "../components/SectionTitle";
+import { useEffect } from "react";
 
 function ServicesPage() {
   const servicesData = [
@@ -36,6 +37,12 @@ function ServicesPage() {
       icon: Shipping,
     },
   ];
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="min-h-screen px-16 py-24 max-md:px-6 max-sm:px-2">
       <div id="services" className="flex flex-col items-center ">

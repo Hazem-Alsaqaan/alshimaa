@@ -2,7 +2,14 @@ import { Link } from "react-router-dom";
 import vegetablesPicture from "../assets/pictures/vegetables.png";
 import fruitsPicture from "../assets/pictures/fruits.png";
 import SectionTitle from "../components/SectionTitle";
+import { useEffect } from "react";
 function ProductsPage() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="min-h-screen px-16 py-24 max-md:px-6 bg-green-50 max-sm:px-2">
       <SectionTitle title={"Our Products"} />

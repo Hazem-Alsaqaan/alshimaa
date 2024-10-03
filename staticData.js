@@ -61,8 +61,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 2,
@@ -81,8 +84,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 3,
@@ -101,8 +107,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 4,
@@ -121,8 +130,11 @@ const vegetablesData = [
     carton_box: "10.0 kg N.W / 11.0 kg G.W. ( Dry Only )",
     mesh_bags: "5.0 kg N.W / 5.1 kg G.W . (Fresh & Dry)",
     bamboo_bags: "5.0 kg N.W / 5.3 kg G.W. ( Fresh Only )",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 5,
@@ -142,8 +154,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 6,
@@ -162,8 +177,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 7,
@@ -184,8 +202,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 8,
@@ -204,8 +225,11 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 9,
@@ -233,10 +257,14 @@ const vegetablesData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
 ];
+
 const fruitsData = [
   {
     id: 10,
@@ -248,15 +276,17 @@ const fruitsData = [
     packing: ` Telescopic Cartons: 15 Kg Open Top Cartons: 7.5Kg , 15 Kg`,
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: `  (40 feet): 21 Pallet`,
+    container_capacity: ` (40 feet): 21 Pallet`,
     pallets: "",
     loose: "",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
-    telescopic_cartons: `15 kg 80 Cartons (per Pallet) 64 Cartons per (Euro pallet )`,
-    telescopic_cartons_7: `7.5 Kg 140 Carton (per Pallet) 112 Cartons (per Euro pallet)`,
-    // open_top_cartons_15: `15 Kg : 65 Cartons (per Pallet)`,
+    plastic_boxes: "",
+    telescopic_cartons: ` 15 Kg : 80 Cartons (per Pallet) 64 Cartons per (Euro pallet `,
+    telescopic_cartons_7: "",
+    open_top_cartons: ` 15 Kg : 65 Cartons (per Pallet`,
+    open_top_cartons_7: `7.5 Kg : 140 Carton (per Pallet) 112 Cartons (per Euro pallet`,
   },
   {
     id: 11,
@@ -274,8 +304,11 @@ const fruitsData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: `15 Kg : 80 Cartons (per Pallet) 64 Cartons per (Euro pallet ) 64 Cartons per (Euro pallet )`,
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 12,
@@ -293,11 +326,11 @@ const fruitsData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
-    telescopic_cartons: `15 Kg :
- 80 Cartons (per Pallet)
- 64 Cartons per (Euro pallet )`,
-    telescopic_cartons_7: `7.5 kg 168 Cartons (per Pallet)
- 120 Cartons . (per Euro pallet)`,
+    plastic_boxes: "",
+    telescopic_cartons: `15 Kg : 80 Cartons (per Pallet) 64 Cartons per (Euro pallet )`,
+    telescopic_cartons_7: `7.5 kg 168 Cartons (per Pallet) 120 Cartons . (per Euro pallet)`,
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 13,
@@ -317,6 +350,7 @@ const fruitsData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: `15 Kg :
     80 Cartons (per Pallet)
     80 Cartons (per Pallet)
@@ -324,6 +358,8 @@ const fruitsData = [
     telescopic_cartons_7: ` 7.5 Kg :
     140 Cartons (per Pallet)
     112 Cartons . (per Euro pallet)`,
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
 
   {
@@ -342,8 +378,11 @@ const fruitsData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
 
   {
@@ -362,8 +401,11 @@ const fruitsData = [
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
+    plastic_boxes: "",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
   {
     id: 16,
@@ -389,9 +431,12 @@ between 400 grams to 800 grams per fruit.
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
-    plastic_boxes: "",
+    plastic_boxes:
+      " 5 Kg : 180 Box (per Pallet) 180 Box (per Pallet) 144 Box (Euro pallet )",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
+    open_top_cartons: "",
+    open_top_cartons_7: "",
   },
 ];
 

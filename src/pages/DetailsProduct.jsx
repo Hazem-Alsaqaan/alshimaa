@@ -8,11 +8,16 @@ function DetailsProduct() {
   const [singleItem, setSingleItem] = useState();
   const { id } = useParams();
   useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
     const getProduct = () => {
       products.map((item) => item.id == id && setSingleItem(item));
     };
     getProduct();
   }, [id, products]);
+
   if (!singleItem) {
     return (
       <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2 flex items-center justify-center">
@@ -114,6 +119,14 @@ function DetailsProduct() {
               {singleItem.bamboo_bags}
             </p>
           )}
+          {singleItem.plastic_boxes && (
+            <p className="py-2">
+              <span className="font-OpenSansExtraBold capitalize">
+                plastic boxes:{" "}
+              </span>
+              {singleItem.plastic_boxes}
+            </p>
+          )}
           {singleItem.telescopic_cartons && (
             <p className="py-2">
               <span className="font-OpenSansExtraBold capitalize">
@@ -128,6 +141,22 @@ function DetailsProduct() {
                 telescopic cartons 7.5 kg:{" "}
               </span>
               {singleItem.telescopic_cartons_7}
+            </p>
+          )}
+          {singleItem.open_top_cartons_7 && (
+            <p className="py-2">
+              <span className="font-OpenSansExtraBold capitalize">
+                open top cartons 7.5 kg:{" "}
+              </span>
+              {singleItem.open_top_cartons_7}
+            </p>
+          )}
+          {singleItem.open_top_cartons && (
+            <p className="py-2">
+              <span className="font-OpenSansExtraBold capitalize">
+                open top cartons 15 kg:{" "}
+              </span>
+              {singleItem.open_top_cartons}
             </p>
           )}
         </div>
