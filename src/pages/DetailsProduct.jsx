@@ -3,10 +3,12 @@ import { useParams } from "react-router-dom";
 import { allProducts } from "../../staticData";
 import SectionTitle from "../components/SectionTitle";
 import TableCalibration from "../components/TableCalibration";
+import NotFoundPage from "./NotFoundPage";
 function DetailsProduct() {
   const products = allProducts;
   const [singleItem, setSingleItem] = useState();
   const { id } = useParams();
+  const notFoundParams = products.find((item) => item.id == id);
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -17,7 +19,9 @@ function DetailsProduct() {
     };
     getProduct();
   }, [id, products]);
-
+  if (!notFoundParams) {
+    return <NotFoundPage />;
+  }
   if (!singleItem) {
     return (
       <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2 flex items-center justify-center">

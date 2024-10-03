@@ -11,12 +11,14 @@ import ProductsPage from "./pages/ProductsPage";
 import ContactUsPage from "./pages/ContactUsPage";
 import DetailsProduct from "./pages/DetailsProduct";
 import Footer from "./components/footer/Footer";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
     <div className="bg-neutral-50">
       <NavBar />
       <Routes>
+        <Route path={"*"} element={<NotFoundPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/services" element={<ServicesPage />} />
