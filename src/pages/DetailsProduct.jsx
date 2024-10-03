@@ -103,6 +103,14 @@ function DetailsProduct() {
               {singleItem.loose}
             </p>
           )}
+          {singleItem.carton_box && (
+            <p className="py-2">
+              <span className="font-OpenSansExtraBold capitalize">
+                carton box:{" "}
+              </span>
+              {singleItem.carton_box}
+            </p>
+          )}
           {singleItem.mesh_bags && (
             <p className="py-2">
               <span className="font-OpenSansExtraBold capitalize">
