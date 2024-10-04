@@ -78,7 +78,7 @@ const vegetablesData = [
       "The Red onion is a cured bulb onion with a deep purple, papery outer skin and slightly red tinted flesh. Red onion’s flavor ranges from sweet to pungent depending on its age and variety. This onion’s layers are thinner and crunchier compared to other onion varieties and therefore most commonly used for raw preparations.",
     hs_code: "07031010",
     calibration: "50mm : 100 mm",
-    packing: "Mesh Bag",
+    packing: "Mesh Bags",
     unit_weight: "5kg, 8 kg, 10 kg, 15kg, 20 kg, 25kg",
     jumbo_bag: "1200 Kg",
     container_capacity: "40 feet 25: 30 Tons",
@@ -195,7 +195,7 @@ const vegetablesData = [
     hs_code: "070511",
     calibration: "72/80/88/100/113/125/138/150",
     packing:
-      "Open Top Carton : Count (7-8-9-10-11-12) per unit .Approximately (7 – 8) kg",
+      "Open Top Carton : Count (7-8-9-10-11-12) per unit .Approximately (7 – 8) kg Plastic Box : Count (6-7-8-9-10) per unit . Approximately (7 – 8) kg Approximately (5 – 6) kg",
     unit_weight: "",
     jumbo_bag: "",
     container_capacity:
@@ -288,7 +288,7 @@ const fruitsData = [
     plastic_boxes: "",
     telescopic_cartons: ` 15 Kg : 80 Cartons (per Pallet) 64 Cartons per (Euro pallet) `,
     telescopic_cartons_7: "",
-    open_top_cartons: ` 15 Kg : 65 Cartons (per Pallet`,
+    open_top_cartons: ` 15 Kg : 65 Cartons (per Pallet)`,
     open_top_cartons_7: `7.5 Kg : 140 Carton (per Pallet) 112 Cartons (per Euro pallet)`,
   },
   {
