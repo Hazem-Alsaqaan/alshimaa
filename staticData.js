@@ -1,3 +1,6 @@
+import ahmed001 from "./src/assets/pictures/ahmed001.jpg";
+import amr001 from "./src/assets/pictures/amr001.jpg";
+import ibrahimhagag001 from "./src/assets/pictures/ibrahimhagag001.jpg";
 import member from "./src/assets/pictures/man_8526419.png";
 import slider001 from "./src/assets/pictures/slider001.jpg";
 import slider002 from "./src/assets/pictures/slider002.jpg";
@@ -417,14 +420,13 @@ attractive color, and unique taste. This fruit is a symbol of wealth
 and beauty in Egyptian culture, holding a special place in global markets.
  The number of pomegranates in each package ranges from 
 6 to 12, depending on the size of the fruits. The standard weights vary 
-between 400 grams to 800 grams per fruit.
- between 400 grams to 800 grams per fruit.`,
+between 400 grams to 800 grams per fruit.`,
     hs_code: "0810900050",
     calibration: "",
-    packing: `The pomegranates are packed in plastic boxes
-    covered with moisture and temperature-controlled bags`,
+    packing:
+      "Plastic boxes, cardboard, covered with bags that protect them from heat and humidity",
     unit_weight: " 5 kilograms",
-    jumbo_bag: ` 5 Kg :180 Box (per Pallet) 180 Box (per Pallet) 144 Box (Euro pallet )`,
+    jumbo_bag: "",
     container_capacity: "(40 feet): 21 Pallet",
     pallets: "",
     loose: "",
@@ -448,14 +450,14 @@ const employeesData = [
     username: "Amr El-mesarea",
     job_title: "CEO",
     phone: "01015860700",
-    picture: member,
+    picture: amr001,
   },
   {
     id: 2,
     username: "Ahmed El-mesarea",
     job_title: "COO",
     phone: "01007400454",
-    picture: member,
+    picture: ahmed001,
   },
   {
     id: 3,
@@ -476,7 +478,7 @@ const employeesData = [
     username: "Ibrahim Haggag",
     job_title: "Transportation Supervisor",
     phone: "01005476069",
-    picture: member,
+    picture: ibrahimhagag001,
   },
   {
     id: 6,
