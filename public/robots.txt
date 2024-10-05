@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Allow: /
+Sitemap: https://alshimaa.vercel.app/sitemap.xml
+User-Agent: AdsBot-Google

@@ -44,7 +44,7 @@ export default function SwiperHomePage() {
         </div>
         {sliderImagesArray.map((picture) => (
           <SwiperSlide key={picture.id}>
-            <img src={picture.url} alt={picture.id} />
+            <img src={picture.url} alt={"alshimaa للمنتجات الزراعية"} />
 
             <div className="autoplay-progress" slot="container-end">
               <svg viewBox="0 0 0 0" ref={progressCircle}>
