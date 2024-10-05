@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 import whatsapp_icon from "../assets/pictures/whatsapp_2504957.png";
+import PictureItem from "./PictureItem";
 
 function TeamMember({ item }) {
   return (
@@ -26,10 +27,10 @@ function TeamMember({ item }) {
         </div>
       </div>
       <div className=" -translate-y-10 w-24 h-24 bg-yellow-300 rounded-full border-8 border-solid border-neutral-100 overflow-hidden">
-        <img
-          src={item.picture}
-          alt="team_member_pic"
-          className="w-full h-full"
+        <PictureItem
+          productPhoto={item.picture}
+          width={"full"}
+          height={"full"}
         />
       </div>
     </div>

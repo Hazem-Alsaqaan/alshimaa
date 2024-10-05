@@ -1,6 +1,8 @@
 /* eslint-disable react/prop-types */
+import React from "react";
 import BoxBg from "../assets/pictures/logo33.png";
 import { Link } from "react-router-dom";
+const PictureItem = React.lazy(() => import("./PictureItem"));
 
 function ProductCard({ item }) {
   return (
@@ -24,7 +26,7 @@ function ProductCard({ item }) {
           </Link>
         </div>
         <div className="flex-1 bg-neutral-50 p-3 flex items-center justify-center rotate-45 shadow-xl">
-          <img className={`w-36 h-36`} src={item.url} alt="" />
+          <PictureItem productPhoto={item.url} width={"36"} height={"36"} />
         </div>
       </div>
     </div>

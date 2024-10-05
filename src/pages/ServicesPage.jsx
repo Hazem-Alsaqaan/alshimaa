@@ -5,6 +5,7 @@ import Shipping from "../assets/pictures/Shipping.png";
 import ServiceCard from "../components/ServiceCard";
 import SectionTitle from "../components/SectionTitle";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 function ServicesPage() {
   const servicesData = [
@@ -44,16 +45,30 @@ function ServicesPage() {
     });
   }, []);
   return (
-    <div className="min-h-screen px-16 py-24 max-md:px-6 max-sm:px-2">
-      <div id="services" className="flex flex-col items-center ">
-        <SectionTitle title={"Services"} />
-        <div className="flex flex-col gap-20">
-          {servicesData.map((item) => (
-            <ServiceCard key={item?.id} item={item} />
-          ))}
+    <>
+      <Helmet>
+        <title>Alshimaa</title>
+
+        <meta
+          name="description"
+          content="نحن متخصصون في إنتاج وتصدير المحاصيل الزراعية والفواكه الطازجة بجودة عالية. We specialize in the production and export of high-quality fresh agricultural products and fruits."
+        />
+        <meta
+          name="keywords"
+          content="إنتاج المحاصيل الزراعية, تصدير الفواكه, الزراعة العضوية, محاصيل طازجة, جودة الفواكه, مزارع محلية, شحن دولي, منتجات زراعية, فواكه طازجة, خضروات طازجة, استيراد وتصدير, Agriculture products, fruit export, organic farming, fresh crops, fruit quality, local farms, international shipping, agricultural products, fresh fruits and vegetables, import and export"
+        />
+      </Helmet>
+      <div className="min-h-screen px-16 py-24 max-md:px-6 max-sm:px-2">
+        <div id="services" className="flex flex-col items-center ">
+          <SectionTitle title={"Services"} />
+          <div className="flex flex-col gap-20">
+            {servicesData.map((item) => (
+              <ServiceCard key={item?.id} item={item} />
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
