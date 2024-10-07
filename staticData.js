@@ -668,51 +668,51 @@ const vegetablesData = [
     seasons: [
       {
         month: "jan",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "fab",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "mar",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "apr",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "may",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "jun",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "jul",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "aug",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "sep",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "oct",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "nov",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "dec",
-        value: "frish",
+        value: "stored",
       },
     ],
   },
