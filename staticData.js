@@ -69,6 +69,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "stored",
+      },
+      {
+        month: "aug",
+        value: "stored",
+      },
+      {
+        month: "sep",
+        value: "stored",
+      },
+      {
+        month: "oct",
+        value: "stored",
+      },
+      {
+        month: "nov",
+        value: "stored",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
   {
     id: 2,
@@ -92,6 +142,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "none",
+      },
+      {
+        month: "fab",
+        value: "none",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "stored",
+      },
+      {
+        month: "aug",
+        value: "stored",
+      },
+      {
+        month: "sep",
+        value: "stored",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
   {
     id: 3,
@@ -115,6 +215,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "none",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
   {
     id: 4,
@@ -138,6 +288,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
   {
     id: 5,
@@ -162,6 +362,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "none",
+      },
+      {
+        month: "fab",
+        value: "none",
+      },
+      {
+        month: "mar",
+        value: "none",
+      },
+      {
+        month: "apr",
+        value: "none",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
   {
     id: 6,
@@ -185,6 +435,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
   {
     id: 7,
@@ -210,6 +510,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "frish",
+      },
+      {
+        month: "aug",
+        value: "frish",
+      },
+      {
+        month: "sep",
+        value: "frish",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
   {
     id: 8,
@@ -233,6 +583,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "none",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
   {
     id: 9,
@@ -265,6 +665,56 @@ const vegetablesData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "frish",
+      },
+      {
+        month: "aug",
+        value: "frish",
+      },
+      {
+        month: "sep",
+        value: "frish",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
 ];
 
@@ -290,6 +740,56 @@ const fruitsData = [
     telescopic_cartons_7: "",
     open_top_cartons: ` 15 Kg : 65 Cartons (per Pallet)`,
     open_top_cartons_7: `7.5 Kg : 140 Carton (per Pallet) 112 Cartons (per Euro pallet)`,
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "none",
+      },
+      {
+        month: "apr",
+        value: "none",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
   {
     id: 11,
@@ -312,6 +812,56 @@ const fruitsData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "none",
+      },
+      {
+        month: "apr",
+        value: "none",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
   {
     id: 12,
@@ -334,6 +884,56 @@ const fruitsData = [
     telescopic_cartons_7: `7.5 kg 168 Cartons (per Pallet) 120 Cartons . (per Euro pallet)`,
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "frish",
+      },
+      {
+        month: "aug",
+        value: "frish",
+      },
+      {
+        month: "sep",
+        value: "frish",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
   {
     id: 13,
@@ -363,6 +963,56 @@ const fruitsData = [
     112 Cartons . (per Euro pallet)`,
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "none",
+      },
+      {
+        month: "oct",
+        value: "none",
+      },
+      {
+        month: "nov",
+        value: "none",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
 
   {
@@ -386,6 +1036,56 @@ const fruitsData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "frish",
+      },
+      {
+        month: "aug",
+        value: "frish",
+      },
+      {
+        month: "sep",
+        value: "frish",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
 
   {
@@ -409,6 +1109,56 @@ const fruitsData = [
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "frish",
+      },
+      {
+        month: "fab",
+        value: "frish",
+      },
+      {
+        month: "mar",
+        value: "frish",
+      },
+      {
+        month: "apr",
+        value: "frish",
+      },
+      {
+        month: "may",
+        value: "frish",
+      },
+      {
+        month: "jun",
+        value: "frish",
+      },
+      {
+        month: "jul",
+        value: "frish",
+      },
+      {
+        month: "aug",
+        value: "frish",
+      },
+      {
+        month: "sep",
+        value: "frish",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "frish",
+      },
+    ],
   },
   {
     id: 16,
@@ -419,26 +1169,75 @@ of pomegranates in the world, thanks to its high quality,
 attractive color, and unique taste. This fruit is a symbol of wealth 
 and beauty in Egyptian culture, holding a special place in global markets.
  The number of pomegranates in each package ranges from 
-6 to 12, depending on the size of the fruits. The standard weights vary 
+6 to 14, depending on the size of the fruits. The standard weights vary 
 between 400 grams to 800 grams per fruit.`,
     hs_code: "0810900050",
     calibration: "",
     packing:
-      "Plastic boxes, cardboard, covered with bags that protect them from heat and humidity",
-    unit_weight: " 5 kilograms",
+      "Plastic boxes, covered with bags that protect them from heat and humidity",
+    unit_weight: "(4.5 - 5) kilograms",
     jumbo_bag: "",
     container_capacity: "(40 feet): 21 Pallet",
-    pallets: "",
-    loose: "",
+    pallets: "21 Pallet including Euro per container 17 tons",
+    loose: "up to 18 tons",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
-    plastic_boxes:
-      " 5 Kg : 180 Box (per Pallet) 180 Box (per Pallet) 144 Box (Euro pallet )",
+    plastic_boxes: "180 Box (per Pallet) 144 Box (Euro pallet )",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
     open_top_cartons: "",
     open_top_cartons_7: "",
+    seasons: [
+      {
+        month: "jan",
+        value: "none",
+      },
+      {
+        month: "fab",
+        value: "none",
+      },
+      {
+        month: "mar",
+        value: "none",
+      },
+      {
+        month: "apr",
+        value: "none",
+      },
+      {
+        month: "may",
+        value: "none",
+      },
+      {
+        month: "jun",
+        value: "none",
+      },
+      {
+        month: "jul",
+        value: "none",
+      },
+      {
+        month: "aug",
+        value: "none",
+      },
+      {
+        month: "sep",
+        value: "frish",
+      },
+      {
+        month: "oct",
+        value: "frish",
+      },
+      {
+        month: "nov",
+        value: "frish",
+      },
+      {
+        month: "dec",
+        value: "none",
+      },
+    ],
   },
 ];
 

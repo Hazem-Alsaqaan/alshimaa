@@ -6,6 +6,7 @@ import TableCalibration from "../components/TableCalibration";
 import NotFoundPage from "./NotFoundPage";
 import { Helmet } from "react-helmet-async";
 import PictureItem from "../components/PictureItem";
+import ProductsSeassonsTable from "../components/ProductsSeassonsTable";
 function DetailsProduct() {
   const products = allProducts;
   const [singleItem, setSingleItem] = useState();
@@ -37,7 +38,6 @@ function DetailsProduct() {
     <>
       <Helmet>
         <title>Alshimaa</title>
-
         <meta
           name="description"
           content="نحن متخصصون في إنتاج وتصدير المحاصيل الزراعية والفواكه الطازجة بجودة عالية. We specialize in the production and export of high-quality fresh agricultural products and fruits."
@@ -201,6 +201,11 @@ function DetailsProduct() {
           ) : (
             ""
           )}
+        </div>
+        <div className="flex items-center justify-center gap-1 my-10 flex-wrap">
+          {singleItem.seasons.map((product) => (
+            <ProductsSeassonsTable key={product.month} product={product} />
+          ))}
         </div>
       </div>
     </>
