@@ -26,6 +26,18 @@ import veg006 from "./src/assets/pictures/veg006.png";
 import veg007 from "./src/assets/pictures/veg007.png";
 import veg008 from "./src/assets/pictures/veg008.png";
 import veg009 from "./src/assets/pictures/veg009.png";
+import Russia from "../assets/pictures/Russia.png";
+import Bosnia from "../assets/pictures/BosniaAndHerzegovina.png";
+import Croatia from "../assets/pictures/Croatia.png";
+import Romania from "../assets/pictures/Romania.png";
+import Greece from "../assets/pictures/Greece.png";
+import Italy from "../assets/pictures/Italy.png";
+import Germany from "../assets/pictures/Germany.png";
+import Lebanon from "../assets/pictures/Lebanon.png";
+import SaudiArabia from "../assets/pictures/SaudiArabia.png";
+import Moldova from "../assets/pictures/Moldova.png";
+import Montenegro from "../assets/pictures/Montenegro.png";
+import France from "../assets/pictures/France.png";
 const sliderImages = [
   {
     id: 1,
@@ -1302,4 +1314,61 @@ const employeesData = [
     picture: mohamedHassan001,
   },
 ];
-export { sliderImages, vegetablesData, fruitsData, allProducts, employeesData };
+const countriesData = [
+  {
+    title: "Russia",
+    photo: Russia,
+  },
+  {
+    title: "Bosnia",
+    photo: Bosnia,
+  },
+  {
+    title: "Croatia",
+    photo: Croatia,
+  },
+  {
+    title: "Romania",
+    photo: Romania,
+  },
+  {
+    title: "Greece",
+    photo: Greece,
+  },
+  {
+    title: "Italy",
+    photo: Italy,
+  },
+  {
+    title: "Germany",
+    photo: Germany,
+  },
+  {
+    title: "Lebanon",
+    photo: Lebanon,
+  },
+  {
+    title: "SaudiArabia",
+    photo: SaudiArabia,
+  },
+  {
+    title: "Moldova",
+    photo: Moldova,
+  },
+  {
+    title: "Montenegro",
+    photo: Montenegro,
+  },
+  {
+    title: "France",
+    photo: France,
+  },
+];
+export {
+  sliderImages,
+  vegetablesData,
+  fruitsData,
+  allProducts,
+  employeesData,
+  countriesData,
+};
