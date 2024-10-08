@@ -101,3 +101,9 @@ a.active{
   color: #22c55e;
   z-index: 12 !important;
 }
+/* countries swiper */
+.swiper-coverflow .swiper-slide {
+  height: 60px;
+  width: 100px;
+  background-color: transparent white;
+}
