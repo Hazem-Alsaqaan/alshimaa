@@ -1,6 +1,9 @@
 import ahmed001 from "./src/assets/pictures/ahmed001.jpg";
 import amr001 from "./src/assets/pictures/amr001.jpg";
 import ibrahimhagag001 from "./src/assets/pictures/ibrahimhagag001.jpg";
+import mohamedHassan001 from "./src/assets/pictures/mohamedHassan001.jpg";
+import hani001 from "./src/assets/pictures/hani001.jpg";
+import sami001 from "./src/assets/pictures/sami001.jpg";
 import member from "./src/assets/pictures/man_8526419.png";
 import slider001 from "./src/assets/pictures/slider001.jpg";
 import slider002 from "./src/assets/pictures/slider002.jpg";
@@ -54,10 +57,10 @@ const vegetablesData = [
     description:
       "The Egyptian potatoes are well-known of its good quality whether for the potatoes grown in clay or sandy soil , also well-known of its ability for preservation , the level of solidity and sugar for a period that exceeds twenty days from the day of harvest.",
     hs_code: "070190",
-    calibration: "55mm Up",
+    calibration: "(40 , 45, 50, 55, 60, 65) mm Up",
     packing: "Mesh Bags",
-    unit_weight: " 5 , 8 , 10 , 15 , 20 KG",
-    jumbo_bag: "",
+    unit_weight: " 5 , 8 , 10 , 25 KG",
+    jumbo_bag: "1250 kg",
     container_capacity: "(40 feet) ",
     pallets: "18 Pallet per Container 27 Tons",
     loose: "Up to 30 Tons",
@@ -129,10 +132,10 @@ const vegetablesData = [
     hs_code: "07031010",
     calibration: "50mm : 100 mm",
     packing: "Mesh Bags",
-    unit_weight: "5kg, 8 kg, 10 kg, 15kg, 20 kg, 25kg",
-    jumbo_bag: "1200 Kg",
-    container_capacity: "40 feet 25: 30 Tons",
-    pallets: "",
+    unit_weight: "10 kg, 25kg",
+    jumbo_bag: "1250 Kg",
+    container_capacity: "40 feet",
+    pallets: "18 Pallet per Container 25 Tons",
     loose: "Up to 30 Tons",
     carton_box: "",
     mesh_bags: "",
@@ -202,11 +205,11 @@ const vegetablesData = [
     hs_code: "080550",
     calibration: "50mm : 100 mm",
     packing: "Mesh Bag",
-    unit_weight: "5kg, 8 kg, 10 kg, 15kg, 20 kg, 25kg",
-    jumbo_bag: "1200 Kg",
-    container_capacity: "40 feet 25: 30 Tons",
-    pallets: "",
-    loose: "",
+    unit_weight: "10 kg, 25kg",
+    jumbo_bag: "1250 Kg",
+    container_capacity: "40 feet",
+    pallets: "18 Pallet per Container 25 Tons",
+    loose: "Up to 30 Tons",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
@@ -277,8 +280,8 @@ const vegetablesData = [
     packing: "Plastic Box: 10.0 kg N.W / 11.0 kg G.W. (Fresh & Dry) ",
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: "(40 feet): 20 pallet per Container",
-    pallets: "",
+    container_capacity: "(40 feet)",
+    pallets: "20 pallet per Container",
     loose: "",
     carton_box: "10.0 kg N.W / 11.0 kg G.W. ( Dry Only )",
     mesh_bags: "5.0 kg N.W / 5.1 kg G.W . (Fresh & Dry)",
@@ -420,13 +423,13 @@ const vegetablesData = [
     description:
       "The sweet flavor of Egyptian carrots makes them a favorite in global markets. They are distinguished by their bright orange color, which enhances their appeal. Egyptian carrots have excellent storage capacity, making them ideal for export. They are rich in Vitamin A, fiber, and beta-carotene, making them a healthy and nutritious food.",
     hs_code: "070610000",
-    calibration: "2cm: 5cm",
+    calibration: "2 cm: 5 cm or (variable sizes) 70 - 150 g : 150 - 250 g",
     packing: "Mesh bags, plastic crates, cardboard boxes",
-    unit_weight: "5 kg, 10 kg",
+    unit_weight: "10 kg",
     jumbo_bag: "",
-    container_capacity: "(40 feet) Pallets :18 Pallet per Container 25 Tons",
-    pallets: "",
-    loose: "",
+    container_capacity: "(40 feet)",
+    pallets: "18 Pallet per Container 26 Tons",
+    loose: "Up to 27.5 Tons",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
@@ -568,12 +571,12 @@ const vegetablesData = [
     description:
       "Fruit medium-small size, elliptical to oblong commonly with short neck or low collar at base, seeds content variable but usually few to none, Color yellow at maturity.",
     hs_code: "080530",
-    calibration: "72/80/88/100/113/125/138/150",
+    calibration: "72/80/88/100/113/125/138/150/162",
     packing: "Telescopic Cartons : 15 KG. N.W.Plastic Box : 9 KG. N.W.",
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: "(40 feet): 21 Pallet",
-    pallets: "",
+    container_capacity: "(40 feet)",
+    pallets: "21 Pallet",
     loose: "",
     carton_box: "",
     mesh_bags: "",
@@ -649,14 +652,12 @@ const vegetablesData = [
  Crinkle Cut Fries: Have a wavy shape with a thickness of about 7-9 mm.
  Crinkle Cut Fries: Have a wavy shape with a thickness of about 7-9 mm. 
  Curly Fries: Take a spiral or curly shape.`,
-    packing: `Carton with bag packages - PET plastic containers.*Unit Weights:0.5 kg-1 kg-1.5 kg-2.5 kg-5 kg-10 kg-20 kg`,
-    unit_weight: "",
+    packing: `Carton with bag packages - PET plastic containers.`,
+    unit_weight: "0.5 kg-1 kg-1.5 kg-2.5 kg-5 kg-10 kg-20 kg",
     jumbo_bag: "",
-    container_capacity: `(40 feet):Pallets :21 Pallets including Euro per Container 
-  • Total Weight: 25tons.
-  • Loose Weight: Up to 27 tons.`,
-    pallets: "",
-    loose: "",
+    container_capacity: `(40 feet)`,
+    pallets: "21 Pallets including Euro per Container 25 tons",
+    loose: "Up to 27 Tons",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
@@ -1270,7 +1271,7 @@ const employeesData = [
     username: "Sami Zaghib",
     job_title: "Sales and Supply Support",
     phone: "01024529388",
-    picture: member,
+    picture: sami001,
   },
   {
     id: 5,
@@ -1284,7 +1285,7 @@ const employeesData = [
     username: "Hani Hasaballah",
     job_title: "Manager of Sorting, Packaging, and Packing",
     phone: "01060840686",
-    picture: member,
+    picture: hani001,
   },
   {
     id: 7,
@@ -1298,7 +1299,7 @@ const employeesData = [
     username: "Mohamed Hassan",
     job_title: "Finance Department",
     phone: "01006610523",
-    picture: member,
+    picture: mohamedHassan001,
   },
 ];
 export { sliderImages, vegetablesData, fruitsData, allProducts, employeesData };

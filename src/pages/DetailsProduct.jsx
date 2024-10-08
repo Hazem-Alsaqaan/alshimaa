@@ -7,6 +7,7 @@ import NotFoundPage from "./NotFoundPage";
 import { Helmet } from "react-helmet-async";
 import PictureItem from "../components/PictureItem";
 import ProductsSeassonsTable from "../components/ProductsSeassonsTable";
+import ExplainMarkers from "../components/ExplainMarkers";
 function DetailsProduct() {
   const products = allProducts;
   const [singleItem, setSingleItem] = useState();
@@ -99,35 +100,12 @@ function DetailsProduct() {
             {singleItem.jumbo_bag && (
               <p className="py-2">
                 <span className="font-OpenSansExtraBold capitalize">
-                  Jumbo Bag:{" "}
+                  Jumbo Bags:{" "}
                 </span>
                 {singleItem.jumbo_bag}
               </p>
             )}
-            {singleItem.container_capacity && (
-              <p className="py-2">
-                <span className="font-OpenSansExtraBold capitalize">
-                  Container Capacity:{" "}
-                </span>
-                {singleItem.container_capacity}
-              </p>
-            )}
-            {singleItem.pallets && (
-              <p className="py-2">
-                <span className="font-OpenSansExtraBold capitalize">
-                  pallets:{" "}
-                </span>
-                {singleItem.pallets}
-              </p>
-            )}
-            {singleItem.loose && (
-              <p className="py-2">
-                <span className="font-OpenSansExtraBold capitalize">
-                  loose:{" "}
-                </span>
-                {singleItem.loose}
-              </p>
-            )}
+
             {singleItem.carton_box && (
               <p className="py-2">
                 <span className="font-OpenSansExtraBold capitalize">
@@ -192,6 +170,30 @@ function DetailsProduct() {
                 {singleItem.open_top_cartons}
               </p>
             )}
+            {singleItem.container_capacity && (
+              <p className="py-2">
+                <span className="font-OpenSansExtraBold capitalize">
+                  Container Capacity:{" "}
+                </span>
+                {singleItem.container_capacity}
+              </p>
+            )}
+            {singleItem.pallets && (
+              <p className="py-2">
+                <span className="font-OpenSansExtraBold capitalize">
+                  pallets:{" "}
+                </span>
+                {singleItem.pallets}
+              </p>
+            )}
+            {singleItem.loose && (
+              <p className="py-2">
+                <span className="font-OpenSansExtraBold capitalize">
+                  loose:{" "}
+                </span>
+                {singleItem.loose}
+              </p>
+            )}
           </div>
           {(singleItem.id === 10) |
           (singleItem.id === 11) |
@@ -202,10 +204,13 @@ function DetailsProduct() {
             ""
           )}
         </div>
-        <div className="flex items-center justify-center gap-1 my-10 flex-wrap">
-          {singleItem.seasons.map((product) => (
-            <ProductsSeassonsTable key={product.month} product={product} />
-          ))}
+        <div className="bg-yellow-50 py-10 px-2 my-10 rounded-2xl border-2 border-solid border-white shadow-2xl">
+          <ExplainMarkers />
+          <div className="flex items-center justify-center gap-1 my-10 flex-wrap">
+            {singleItem.seasons.map((product) => (
+              <ProductsSeassonsTable key={product.month} product={product} />
+            ))}
+          </div>
         </div>
       </div>
     </>
