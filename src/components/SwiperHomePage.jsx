@@ -4,12 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { sliderImages } from "../../staticData";
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
-// import "swiper/css/pagination";
-// import "swiper/css/navigation";
 
-// import "./styles.css";
-
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function SwiperHomePage() {

@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import SectionTitle from "../components/SectionTitle";
 import { Helmet } from "react-helmet-async";
-import CountriesSwiper from "../components/CountiesSwiper";
 function AboutPage() {
   useEffect(() => {
     window.scrollTo({
@@ -83,7 +82,6 @@ function AboutPage() {
             </div>
           </div>
         </div>
-        <CountriesSwiper />
       </div>
     </>
   );
