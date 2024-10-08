@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import SectionTitle from "../components/SectionTitle";
 import { Helmet } from "react-helmet-async";
-import CountriesSwiper from "../components/CountiesSwiper";
+import CountriesSwiper from "../components/CountriesSwiper";
 function AboutPage() {
   useEffect(() => {
     window.scrollTo({
