@@ -1,15 +1,14 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css";
 import { EffectCoverflow } from "swiper/modules";
 import { countriesData } from "../../staticData";
 
-export default function CountriesSwiper() {
+function CountriesExports() {
   const countries = countriesData;
   return (
     <div className="py-10">
-      <h1 className="text-center capitalize">
+      <h1 className="text-center capitalize text-neutral-600">
         the countries we have previously exported to
       </h1>
       <Swiper
@@ -40,3 +39,5 @@ export default function CountriesSwiper() {
     </div>
   );
 }
+
+export default CountriesExports;
