@@ -26,18 +26,7 @@ import veg006 from "./src/assets/pictures/veg006.png";
 import veg007 from "./src/assets/pictures/veg007.png";
 import veg008 from "./src/assets/pictures/veg008.png";
 import veg009 from "./src/assets/pictures/veg009.png";
-import Russia from "./src/assets/pictures/Russia.png";
-import Bosnia from "./src/assets/pictures/BosniaAndHerzegovina.png";
-import Croatia from "./src/assets/pictures/Croatia.png";
-import Romania from "./src/assets/pictures/Romania.png";
-import Greece from "./src/assets/pictures/Greece.png";
-import Italy from "./src/assets/pictures/Italy.png";
-import Germany from "./src/assets/pictures/Germany.png";
-import Lebanon from "./src/assets/pictures/Lebanon.png";
-import SaudiArabia from "./src/assets/pictures/SaudiArabia.png";
-import Moldova from "./src/assets/pictures/Moldova.png";
-import Montenegro from "./src/assets/pictures/Montenegro.png";
-import France from "./src/assets/pictures/France.png";
+
 const sliderImages = [
   {
     id: 1,
@@ -1317,51 +1306,63 @@ const employeesData = [
 const countriesData = [
   {
     title: "Russia",
-    photo: Russia,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397376/alshimaa/russia_ned2x2.png",
   },
   {
     title: "Bosnia",
-    photo: Bosnia,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/BosniaAndHerzegovina_vyhf88.png",
   },
   {
     title: "Croatia",
-    photo: Croatia,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/Croatia_uj4ptx.png",
   },
   {
     title: "Romania",
-    photo: Romania,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397376/alshimaa/Romania_zm1rwq.png",
   },
   {
     title: "Greece",
-    photo: Greece,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/Greece_pdldo0.png",
   },
   {
     title: "Italy",
-    photo: Italy,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/Italy_blp2uw.png",
   },
   {
     title: "Germany",
-    photo: Germany,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/Germany_n0i1sk.png",
   },
   {
     title: "Lebanon",
-    photo: Lebanon,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/Lebanon_j0s8xh.png",
   },
   {
     title: "SaudiArabia",
-    photo: SaudiArabia,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397377/alshimaa/SaudiArabia_jnoho5.png",
   },
   {
     title: "Moldova",
-    photo: Moldova,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397374/alshimaa/Moldova_kicem7.png",
   },
   {
     title: "Montenegro",
-    photo: Montenegro,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397376/alshimaa/Montenegro_a1but4.png",
   },
   {
     title: "France",
-    photo: France,
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/France_wiuofq.png",
   },
 ];
 export {
