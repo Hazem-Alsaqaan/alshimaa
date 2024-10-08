@@ -26,18 +26,18 @@ import veg006 from "./src/assets/pictures/veg006.png";
 import veg007 from "./src/assets/pictures/veg007.png";
 import veg008 from "./src/assets/pictures/veg008.png";
 import veg009 from "./src/assets/pictures/veg009.png";
-import Russia from "../assets/pictures/Russia.png";
-import Bosnia from "../assets/pictures/BosniaAndHerzegovina.png";
-import Croatia from "../assets/pictures/Croatia.png";
-import Romania from "../assets/pictures/Romania.png";
-import Greece from "../assets/pictures/Greece.png";
-import Italy from "../assets/pictures/Italy.png";
-import Germany from "../assets/pictures/Germany.png";
-import Lebanon from "../assets/pictures/Lebanon.png";
-import SaudiArabia from "../assets/pictures/SaudiArabia.png";
-import Moldova from "../assets/pictures/Moldova.png";
-import Montenegro from "../assets/pictures/Montenegro.png";
-import France from "../assets/pictures/France.png";
+import Russia from "./src/assets/pictures/Russia.png";
+import Bosnia from "./src/assets/pictures/BosniaAndHerzegovina.png";
+import Croatia from "./src/assets/pictures/Croatia.png";
+import Romania from "./src/assets/pictures/Romania.png";
+import Greece from "./src/assets/pictures/Greece.png";
+import Italy from "./src/assets/pictures/Italy.png";
+import Germany from "./src/assets/pictures/Germany.png";
+import Lebanon from "./src/assets/pictures/Lebanon.png";
+import SaudiArabia from "./src/assets/pictures/SaudiArabia.png";
+import Moldova from "./src/assets/pictures/Moldova.png";
+import Montenegro from "./src/assets/pictures/Montenegro.png";
+import France from "./src/assets/pictures/France.png";
 const sliderImages = [
   {
     id: 1,
