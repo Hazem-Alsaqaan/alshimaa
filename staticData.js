@@ -1,11 +1,5 @@
 import ahmed001 from "./src/assets/pictures/ahmed001.jpg";
 import amr001 from "./src/assets/pictures/amr001.jpg";
-import ibrahimhagag001 from "./src/assets/pictures/ibrahimhagag001.jpg";
-import mohamedHassan001 from "./src/assets/pictures/mohamedHassan001.jpg";
-import hani001 from "./src/assets/pictures/hani001.jpg";
-import sami002 from "./src/assets/pictures/sami002.jpg";
-import mohamedAlashry from "./src/assets/pictures/mohamedAlashry.jpg";
-import nour from "./src/assets/pictures/nour.jpg";
 import slider001 from "./src/assets/pictures/slider001.jpg";
 import slider002 from "./src/assets/pictures/slider002.jpg";
 import slider003 from "./src/assets/pictures/slider003.jpg";
@@ -1248,42 +1242,48 @@ const employeesData = [
     username: "Nour Al-Sheikh",
     job_title: "Head of Agriculture",
     phone: "01067986763",
-    picture: nour,
+    picture:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728507048/nour_atsmxf.jpg",
   },
   {
     id: 4,
     username: "Sami Zaghib",
     job_title: "Sales and Supply Support",
     phone: "01024529388",
-    picture: sami002,
+    picture:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728507048/sami002_myaeye.jpg",
   },
   {
     id: 5,
     username: "Ibrahim Haggag",
     job_title: "Transportation Supervisor",
     phone: "01005476069",
-    picture: ibrahimhagag001,
+    picture:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728507047/ibrahimhagag001_ndtrye.jpg",
   },
   {
     id: 6,
     username: "Hani Hasaballah",
     job_title: "Manager of Sorting, Packaging, and Packing",
     phone: "01060840686",
-    picture: hani001,
+    picture:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728507047/hani001_adwig8.jpg",
   },
   {
     id: 7,
     username: "Mohamed Hassan",
     job_title: "Finance Department",
     phone: "01006610523",
-    picture: mohamedHassan001,
+    picture:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728507048/mohamedHassan001_yrypy9.jpg",
   },
   {
     id: 8,
     username: "Mohamed Ashry",
     job_title: "Electricity Manager",
     phone: "01061996801",
-    picture: mohamedAlashry,
+    picture:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728507048/mohamedAlashry_dtpish.jpg",
   },
 ];
 const countriesData = [
