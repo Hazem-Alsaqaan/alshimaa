@@ -8,6 +8,8 @@ import { Helmet } from "react-helmet-async";
 import PictureItem from "../components/PictureItem";
 import ProductsSeassonsTable from "../components/ProductsSeassonsTable";
 import ExplainMarkers from "../components/ExplainMarkers";
+import LoadingPages from "../components/LoadingPages";
+
 function DetailsProduct() {
   const products = allProducts;
   const [singleItem, setSingleItem] = useState();
@@ -28,11 +30,12 @@ function DetailsProduct() {
   }
   if (!singleItem) {
     return (
-      <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2 flex items-center justify-center">
-        <h1 className="text-green-500 text-3xl font-OpenSansBold">
-          loading...
-        </h1>
-      </div>
+      // <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2 flex items-center justify-center">
+      //   <h1 className="text-green-500 text-3xl font-OpenSansBold">
+      //     loading...
+      //   </h1>
+      // </div>
+      <LoadingPages />
     );
   }
   return (
@@ -106,14 +109,6 @@ function DetailsProduct() {
               </p>
             )}
 
-            {singleItem.carton_box && (
-              <p className="py-2">
-                <span className="font-OpenSansExtraBold capitalize">
-                  carton box:{" "}
-                </span>
-                {singleItem.carton_box}
-              </p>
-            )}
             {singleItem.mesh_bags && (
               <p className="py-2">
                 <span className="font-OpenSansExtraBold capitalize">
@@ -130,14 +125,7 @@ function DetailsProduct() {
                 {singleItem.bamboo_bags}
               </p>
             )}
-            {singleItem.plastic_boxes && (
-              <p className="py-2">
-                <span className="font-OpenSansExtraBold capitalize">
-                  plastic boxes:{" "}
-                </span>
-                {singleItem.plastic_boxes}
-              </p>
-            )}
+
             {singleItem.telescopic_cartons && (
               <p className="py-2">
                 <span className="font-OpenSansExtraBold capitalize">
@@ -184,6 +172,22 @@ function DetailsProduct() {
                   pallets:{" "}
                 </span>
                 {singleItem.pallets}
+              </p>
+            )}
+            {singleItem.carton_box && (
+              <p className="py-2">
+                <span className="font-OpenSansExtraBold capitalize">
+                  carton box:{" "}
+                </span>
+                {singleItem.carton_box}
+              </p>
+            )}
+            {singleItem.plastic_boxes && (
+              <p className="py-2">
+                <span className="font-OpenSansExtraBold capitalize">
+                  plastic boxes:{" "}
+                </span>
+                {singleItem.plastic_boxes}
               </p>
             )}
             {singleItem.loose && (

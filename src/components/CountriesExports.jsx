@@ -6,11 +6,22 @@ import { countriesData } from "../../staticData";
 
 function CountriesExports() {
   const countries = countriesData;
+
   return (
     <div className="py-10">
       <h1 className="text-center capitalize text-neutral-600">
-        the countries we have previously exported to
+        Countries we have dealt with previously
       </h1>
+      {/* <h1 className="text-center capitalize text-neutral-600">
+        the countries we have previously exported to
+      </h1> */}
+      <div className="flex items-center justify-center ">
+        <img
+          src="https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728417258/alshimaa/316398386_11371425_eort2p.png"
+          alt="alshimaa_world"
+          className="w-72 h-64 alshimaa-earth"
+        />
+      </div>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}

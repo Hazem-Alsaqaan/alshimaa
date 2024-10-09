@@ -77,6 +77,32 @@ a.active{
 .active{
   color: #22c55e;
 }
+.alshimaa-earth{
+animation-name: moveOnSpace, moveOnRotate;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+animation-timing-function:ease-in-out;
+}
+@keyframes moveOnSpace {
+  10% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateY(150px);
+  }
+  70%{
+    transform: translateX(100px);
+  }
+}
+@keyframes moveOnRotate {
+  50% {
+    transform: rotateZ(0deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
 /* styles specific for swiper library */
 .swiper-slide {
   height: calc(100vh - 64px);

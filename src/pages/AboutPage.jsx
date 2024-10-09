@@ -83,8 +83,8 @@ function AboutPage() {
             </div>
           </div>
         </div>
-        <CountriesExports />
       </div>
+      <CountriesExports />
     </>
   );
 }

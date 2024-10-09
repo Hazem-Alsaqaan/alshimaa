@@ -3,29 +3,14 @@ import amr001 from "./src/assets/pictures/amr001.jpg";
 import ibrahimhagag001 from "./src/assets/pictures/ibrahimhagag001.jpg";
 import mohamedHassan001 from "./src/assets/pictures/mohamedHassan001.jpg";
 import hani001 from "./src/assets/pictures/hani001.jpg";
-import sami001 from "./src/assets/pictures/sami001.jpg";
-import member from "./src/assets/pictures/man_8526419.png";
+import sami002 from "./src/assets/pictures/sami002.jpg";
+import mohamedAlashry from "./src/assets/pictures/mohamedAlashry.jpg";
+import nour from "./src/assets/pictures/nour.jpg";
 import slider001 from "./src/assets/pictures/slider001.jpg";
 import slider002 from "./src/assets/pictures/slider002.jpg";
 import slider003 from "./src/assets/pictures/slider003.jpg";
 import slider004 from "./src/assets/pictures/slider004.jpg";
 import slider005 from "./src/assets/pictures/slider005.jpg";
-import fruit001 from "./src/assets/pictures/fruit001.png";
-import fruit002 from "./src/assets/pictures/fruit002.png";
-import fruit003 from "./src/assets/pictures/fruit003.png";
-import fruit004 from "./src/assets/pictures/fruit004.png";
-import fruit005 from "./src/assets/pictures/fruit005.png";
-import fruit006 from "./src/assets/pictures/fruit006.png";
-import fruit007 from "./src/assets/pictures/fruit007.png";
-import veg001 from "./src/assets/pictures/veg001.png";
-import veg002 from "./src/assets/pictures/veg002.png";
-import veg003 from "./src/assets/pictures/veg003.png";
-import veg004 from "./src/assets/pictures/veg004.png";
-import veg005 from "./src/assets/pictures/veg005.png";
-import veg006 from "./src/assets/pictures/veg006.png";
-import veg007 from "./src/assets/pictures/veg007.png";
-import veg008 from "./src/assets/pictures/veg008.png";
-import veg009 from "./src/assets/pictures/veg009.png";
 
 const sliderImages = [
   {
@@ -53,7 +38,7 @@ const sliderImages = [
 const vegetablesData = [
   {
     id: 1,
-    url: veg001,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683938/alshimaa/potato75457_wifrhm.png",
     product_name: "potatoes",
     description:
       "The Egyptian potatoes are well-known of its good quality whether for the potatoes grown in clay or sandy soil , also well-known of its ability for preservation , the level of solidity and sugar for a period that exceeds twenty days from the day of harvest.",
@@ -63,7 +48,7 @@ const vegetablesData = [
     unit_weight: " 5 , 8 , 10 , 25 KG",
     jumbo_bag: "1250 kg",
     container_capacity: "(40 feet) ",
-    pallets: "18 Pallet per Container 27 Tons",
+    pallets: "18 Pallet per Container 25 Tons",
     loose: "Up to 30 Tons",
     carton_box: "",
     mesh_bags: "",
@@ -126,7 +111,7 @@ const vegetablesData = [
   },
   {
     id: 2,
-    url: veg002,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727684210/alshimaa/pngwing.com_zukyag.png",
     product_name: "Red Onion",
     description:
       "The Red onion is a cured bulb onion with a deep purple, papery outer skin and slightly red tinted flesh. Red onion’s flavor ranges from sweet to pungent depending on its age and variety. This onion’s layers are thinner and crunchier compared to other onion varieties and therefore most commonly used for raw preparations.",
@@ -199,7 +184,7 @@ const vegetablesData = [
   },
   {
     id: 3,
-    url: veg003,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683987/alshimaa/1-onion-png-image_if7nvq.png",
     product_name: "Golden Onions",
     description:
       "Onions are a good source of vitamin C and help boost immunity with their many health properties. They contain chromium, which assists in regulating blood sugar and for centuries, onions have been used to reduce inflammation and heal infections",
@@ -272,7 +257,7 @@ const vegetablesData = [
   },
   {
     id: 4,
-    url: veg004,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683939/alshimaa/garlic_nmucft.png",
     product_name: "Garlic",
     description:
       "Egypt occupies the third place in the production and export of garlic worldwide and one of the most famous cultivars in Egypt is white garlic and red (Chinese) and is exported fresh and dried. Garlic Improves Cholesterol Levels, Which May Lower the Risk of Heart Disease , It consists of several lobes , It has thick striped leaves that have a distinctive strong smell and Have strong taste .",
@@ -345,7 +330,7 @@ const vegetablesData = [
   },
   {
     id: 5,
-    url: veg005,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727684459/alshimaa/pngwing.com_1_yhu0ca.png",
     product_name: "sweet patato",
     description:
       "Sweet potatoes are known for their sweet taste and creamy texture. They are rich in nutrients, including vitamins A and C, and dietary fiber. Additionally, they contain antioxidants, which help reduce the risk of chronic diseases. Versatility: Sweet potatoes can be cooked, baked, or used in desserts, making them suitable for a wide variety of dishes.",
@@ -354,9 +339,8 @@ const vegetablesData = [
     packing: "cartons, bags, or boxes: 5 kg-10 kg-20 kg",
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity:
-      "(40 feet) Pallets :21 Pallets including Euro per Container 25 Tons",
-    pallets: "",
+    container_capacity: "(40 feet)",
+    pallets: "21 Pallet including Euro per Container 25 Tons",
     loose: "",
     carton_box: "",
     mesh_bags: "",
@@ -369,11 +353,11 @@ const vegetablesData = [
     seasons: [
       {
         month: "jan",
-        value: "none",
+        value: "stored",
       },
       {
         month: "fab",
-        value: "none",
+        value: "stored",
       },
       {
         month: "mar",
@@ -393,33 +377,33 @@ const vegetablesData = [
       },
       {
         month: "jul",
-        value: "none",
+        value: "frish",
       },
       {
         month: "aug",
-        value: "none",
+        value: "frish",
       },
       {
         month: "sep",
-        value: "none",
+        value: "frish",
       },
       {
         month: "oct",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "nov",
-        value: "frish",
+        value: "stored",
       },
       {
         month: "dec",
-        value: "none",
+        value: "stored",
       },
     ],
   },
   {
     id: 6,
-    url: veg006,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727684210/alshimaa/pngwing.com_zukyag.png",
     product_name: "carrot",
     description:
       "The sweet flavor of Egyptian carrots makes them a favorite in global markets. They are distinguished by their bright orange color, which enhances their appeal. Egyptian carrots have excellent storage capacity, making them ideal for export. They are rich in Vitamin A, fiber, and beta-carotene, making them a healthy and nutritious food.",
@@ -492,7 +476,7 @@ const vegetablesData = [
   },
   {
     id: 7,
-    url: veg007,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727767791/alshimaa/pngwing.com_3_y9rccx.png",
     product_name: " Iceberg lettuce",
     description:
       " Lettuce iceberg is one of the main constituents in salads and is known for its crunchy texture. It has comparatively less nutrients than the other greens that you may find in salads",
@@ -502,14 +486,13 @@ const vegetablesData = [
       "Open Top Carton : Count (7-8-9-10-11-12) per unit .Approximately (7 – 8) kg Plastic Box : Count (6-7-8-9-10) per unit . Approximately (7 – 8) kg Approximately (5 – 6) kg",
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity:
-      " ref 40, 20 pallet Open Top Carton : 70 units per Pallet. Euro Pallet: 39 units. Plastic Box : 90 box per Pallet. Euro Pallet: 60 units.",
-    pallets: "",
+    container_capacity: "(40 feet)",
+    pallets: "20 pallet",
     loose: "",
-    carton_box: "",
+    carton_box: "70 units per Pallet. Euro Pallet: 39 units",
     mesh_bags: "",
     bamboo_bags: "",
-    plastic_boxes: "",
+    plastic_boxes: "90 box per Pallet. Euro Pallet: 60 units.",
     telescopic_cartons: "",
     telescopic_cartons_7: "",
     open_top_cartons: "",
@@ -517,19 +500,19 @@ const vegetablesData = [
     seasons: [
       {
         month: "jan",
-        value: "frish",
+        value: "none",
       },
       {
         month: "fab",
-        value: "frish",
+        value: "none",
       },
       {
         month: "mar",
-        value: "frish",
+        value: "none",
       },
       {
         month: "apr",
-        value: "frish",
+        value: "none",
       },
       {
         month: "may",
@@ -541,15 +524,15 @@ const vegetablesData = [
       },
       {
         month: "jul",
-        value: "frish",
+        value: "none",
       },
       {
         month: "aug",
-        value: "frish",
+        value: "none",
       },
       {
         month: "sep",
-        value: "frish",
+        value: "none",
       },
       {
         month: "oct",
@@ -561,13 +544,13 @@ const vegetablesData = [
       },
       {
         month: "dec",
-        value: "frish",
+        value: "none",
       },
     ],
   },
   {
     id: 8,
-    url: veg008,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683938/alshimaa/lemon2222_qqpt13.png",
     product_name: "Lemon",
     description:
       "Fruit medium-small size, elliptical to oblong commonly with short neck or low collar at base, seeds content variable but usually few to none, Color yellow at maturity.",
@@ -640,7 +623,7 @@ const vegetablesData = [
   },
   {
     id: 9,
-    url: veg009,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727768509/alshimaa/pngwing.com_4_u5zoue.png",
     product_name: " Frozen French fries",
     description:
       "Produced from carefully selected potatoes, ensuring a distinctive taste and texture. They are also easy to prepare, as they can be fried or baked directly from the freezer without the need to thaw. They can be stored for long periods in the freezer, making them convenient for use at any time.",
@@ -723,7 +706,7 @@ const vegetablesData = [
 const fruitsData = [
   {
     id: 10,
-    url: fruit001,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698151/alshimaa/novel-removebg-preview_uk3aut.png",
     product_name: "Navel",
     description: ` Lower acid content than most orange varieties , easily peeled , excellent flavor, earliest maturing. Citrus fruits are full of great health benefits.`,
     hs_code: "080510",
@@ -731,9 +714,9 @@ const fruitsData = [
     packing: ` Telescopic Cartons: 15 Kg Open Top Cartons: 7.5Kg , 15 Kg`,
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: ` (40 feet): 21 Pallet`,
-    pallets: "",
-    loose: "",
+    container_capacity: `(40 feet)`,
+    pallets: "21 Pallet including Euro per container 22 tons",
+    loose: "up to 25 tons",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
@@ -795,7 +778,7 @@ const fruitsData = [
   },
   {
     id: 11,
-    url: fruit002,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698152/alshimaa/baladi-removebg-preview_jmfu5t.png",
     product_name: "Baladi",
     description: ` Juice orange, similar to Valencia, Lower sugar, Medium vigor. Citrus fruits are full of great health benefits.`,
     hs_code: "080510",
@@ -803,8 +786,8 @@ const fruitsData = [
     packing: `Telescopic Cartons: 15 KG N.W. Bin Cartons: 550 KG N.W.`,
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: "(40 feet): 21 Pallet",
-    pallets: "",
+    container_capacity: "(40 feet)",
+    pallets: "21 Pallet 25 tons",
     loose: "",
     carton_box: "",
     mesh_bags: "",
@@ -867,7 +850,7 @@ const fruitsData = [
   },
   {
     id: 12,
-    url: fruit003,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698154/alshimaa/sweety-removebg-preview_nrkepr.png",
     product_name: "Sweety",
     description: `High sugars , very good mid-season orange.Medium vigor, good produce,full of great health benefits.`,
     hs_code: "080510",
@@ -875,9 +858,9 @@ const fruitsData = [
     packing: "Telescopic Cartons: 7.5-15 KG N.W",
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: "(40 feet): 21 Pallet",
-    pallets: "",
-    loose: "",
+    container_capacity: "(40 feet)",
+    pallets: "21 Pallet including Euro per container 25 tons",
+    loose: "up to 26,100 tons ",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
@@ -901,31 +884,31 @@ const fruitsData = [
       },
       {
         month: "apr",
-        value: "frish",
+        value: "none",
       },
       {
         month: "may",
-        value: "frish",
+        value: "none",
       },
       {
         month: "jun",
-        value: "frish",
+        value: "none",
       },
       {
         month: "jul",
-        value: "frish",
+        value: "none",
       },
       {
         month: "aug",
-        value: "frish",
+        value: "none",
       },
       {
         month: "sep",
-        value: "frish",
+        value: "none",
       },
       {
         month: "oct",
-        value: "frish",
+        value: "none",
       },
       {
         month: "nov",
@@ -939,7 +922,7 @@ const fruitsData = [
   },
   {
     id: 13,
-    url: fruit004,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698156/alshimaa/Valencia-removebg-preview_jqzmbh.png",
     product_name: "Valencia",
     description: ` Excellent for eating & juice , Very juicy and sweety last orange variety for Egyptian orange season.Citrus fruits are full of great health benefits.`,
     hs_code: "080510",
@@ -949,9 +932,9 @@ const fruitsData = [
     120 Cartons . (per Euro pallet)`,
     unit_weight: "",
     jumbo_bag: "",
-    container_capacity: "(40 feet): 21 Pallet",
-    pallets: "",
-    loose: "",
+    container_capacity: "(40 feet)",
+    pallets: "21 Pallet including Euro per container 25 tons",
+    loose: "up to 26,100 tons",
     carton_box: "",
     mesh_bags: "",
     bamboo_bags: "",
@@ -1019,7 +1002,7 @@ const fruitsData = [
 
   {
     id: 14,
-    url: fruit005,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698039/alshimaa/1254-removebg-preview_b5jizl.png",
     product_name: "Watermelon",
     description: `Egyptian watermelon is characterized by its excellent quality and delicious flavor, making it highly sought after in international markets. It also has a large size, with the weight of Egyptian watermelons ranging from 5 to 15 kilograms, making them ideal for export. Additionally, it contains a high water content, making it refreshing and hydrating, which appeals to consumers`,
     hs_code: "080711",
@@ -1041,23 +1024,23 @@ const fruitsData = [
     seasons: [
       {
         month: "jan",
-        value: "frish",
+        value: "none",
       },
       {
         month: "fab",
-        value: "frish",
+        value: "none",
       },
       {
         month: "mar",
-        value: "frish",
+        value: "none",
       },
       {
         month: "apr",
-        value: "frish",
+        value: "none",
       },
       {
         month: "may",
-        value: "frish",
+        value: "none",
       },
       {
         month: "jun",
@@ -1077,22 +1060,22 @@ const fruitsData = [
       },
       {
         month: "oct",
-        value: "frish",
+        value: "none",
       },
       {
         month: "nov",
-        value: "frish",
+        value: "none",
       },
       {
         month: "dec",
-        value: "frish",
+        value: "none",
       },
     ],
   },
 
   {
     id: 15,
-    url: fruit006,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698039/alshimaa/pngwing.com_2_pw5z1x.png",
     product_name: "Mango",
     description: ` Delicious Taste: Known for its sweet and aromatic flavor. Nutrient-Rich: Contains vitamins such as C and A, along with antioxidants.Promotes Digestive Health: High in fiber, aiding in digestion.`,
     hs_code: "080450",
@@ -1114,27 +1097,27 @@ const fruitsData = [
     seasons: [
       {
         month: "jan",
-        value: "frish",
+        value: "none",
       },
       {
         month: "fab",
-        value: "frish",
+        value: "none",
       },
       {
         month: "mar",
-        value: "frish",
+        value: "none",
       },
       {
         month: "apr",
-        value: "frish",
+        value: "none",
       },
       {
         month: "may",
-        value: "frish",
+        value: "none",
       },
       {
         month: "jun",
-        value: "frish",
+        value: "none",
       },
       {
         month: "jul",
@@ -1154,17 +1137,17 @@ const fruitsData = [
       },
       {
         month: "nov",
-        value: "frish",
+        value: "none",
       },
       {
         month: "dec",
-        value: "frish",
+        value: "none",
       },
     ],
   },
   {
     id: 16,
-    url: fruit007,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727698039/alshimaa/12571-removebg-preview_hcar5r.png",
     product_name: "pomegranate",
     description: `The Egyptian pomegranate is considered one of the best types 
 of pomegranates in the world, thanks to its high quality, 
@@ -1265,14 +1248,14 @@ const employeesData = [
     username: "Nour Al-Sheikh",
     job_title: "Head of Agriculture",
     phone: "01067986763",
-    picture: member,
+    picture: nour,
   },
   {
     id: 4,
     username: "Sami Zaghib",
     job_title: "Sales and Supply Support",
     phone: "01024529388",
-    picture: sami001,
+    picture: sami002,
   },
   {
     id: 5,
@@ -1290,17 +1273,17 @@ const employeesData = [
   },
   {
     id: 7,
-    username: "Mohamed Ashry",
-    job_title: "Electricity Manager",
-    phone: "01061996801",
-    picture: member,
-  },
-  {
-    id: 8,
     username: "Mohamed Hassan",
     job_title: "Finance Department",
     phone: "01006610523",
     picture: mohamedHassan001,
+  },
+  {
+    id: 8,
+    username: "Mohamed Ashry",
+    job_title: "Electricity Manager",
+    phone: "01061996801",
+    picture: mohamedAlashry,
   },
 ];
 const countriesData = [
@@ -1345,9 +1328,14 @@ const countriesData = [
       "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/Lebanon_j0s8xh.png",
   },
   {
-    title: "SaudiArabia",
+    title: "Saudi Arabia",
     photo:
       "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397377/alshimaa/SaudiArabia_jnoho5.png",
+  },
+  {
+    title: "united arab emirates",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728506310/united_arab_emirates_xvyaxs.png",
   },
   {
     title: "Moldova",
@@ -1364,6 +1352,51 @@ const countriesData = [
     photo:
       "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728397372/alshimaa/France_wiuofq.png",
   },
+  {
+    title: "Poland",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416944/alshimaa/poland_fat1d5.png",
+  },
+  {
+    title: "Serbia",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416944/alshimaa/serbia_eh9cud.png",
+  },
+  {
+    title: "Slovenia",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416943/alshimaa/solvenia_ptqcsh.png",
+  },
+  {
+    title: "Scotland",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416944/alshimaa/Scotland_p39jhm.png",
+  },
+  {
+    title: "Holland",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416944/alshimaa/Holland_v3un7h.png",
+  },
+  {
+    title: "Malaysia",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416944/alshimaa/Malaysia_wzekq5.png",
+  },
+  {
+    title: "Denmark",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416943/alshimaa/Denmark_ydefij.png",
+  },
+  {
+    title: "Lithuania",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416944/alshimaa/Lithuania_kg939t.png",
+  },
+  {
+    title: "Latvia",
+    photo:
+      "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728416943/alshimaa/Latvia_zipowm.png",
+  },
 ];
 export {
   sliderImages,
@@ -1373,3 +1406,20 @@ export {
   employeesData,
   countriesData,
 };
+
+// import fruit001 from "./src/assets/pictures/fruit001.png";
+// import fruit002 from "./src/assets/pictures/fruit002.png";
+// import fruit003 from "./src/assets/pictures/fruit003.png";
+// import fruit004 from "./src/assets/pictures/fruit004.png";
+// import fruit005 from "./src/assets/pictures/fruit005.png";
+// import fruit006 from "./src/assets/pictures/fruit006.png";
+// import fruit007 from "./src/assets/pictures/fruit007.png";
+// import veg001 from "./src/assets/pictures/veg001.png";
+// import veg002 from "./src/assets/pictures/veg002.png";
+// import veg003 from "./src/assets/pictures/veg003.png";
+// import veg004 from "./src/assets/pictures/veg004.png";
+// import veg005 from "./src/assets/pictures/veg005.png";
+// import veg006 from "./src/assets/pictures/veg006.png";
+// import veg007 from "./src/assets/pictures/veg007.png";
+// import veg008 from "./src/assets/pictures/veg008.png";
+// import veg009 from "./src/assets/pictures/veg009.png";

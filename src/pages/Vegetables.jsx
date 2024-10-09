@@ -3,6 +3,7 @@ import { vegetablesData } from "../../staticData.js";
 import ProductCard from "../components/ProductCard";
 import SectionTitle from "../components/SectionTitle";
 import { Helmet } from "react-helmet-async";
+
 function Vegetables() {
   const products = vegetablesData;
   useEffect(() => {
@@ -15,7 +16,6 @@ function Vegetables() {
     <>
       <Helmet>
         <title>Alshimaa</title>
-
         <meta
           name="description"
           content="نحن متخصصون في إنتاج وتصدير المحاصيل الزراعية والفواكه الطازجة بجودة عالية. We specialize in the production and export of high-quality fresh agricultural products and fruits."
