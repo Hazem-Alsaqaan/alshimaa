@@ -27,6 +27,22 @@ const sliderImages = [
     id: 5,
     url: slider005,
   },
+  {
+    id: 6,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728662280/alshimaa/company_built_pezme3.jpg",
+  },
+  {
+    id: 7,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728662280/alshimaa/slider006_xwsh9m.jpg",
+  },
+  {
+    id: 8,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728662280/alshimaa/slider007_fejuvl.jpg",
+  },
+  {
+    id: 9,
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728662278/alshimaa/slider009_i3slw0.jpg",
+  },
 ];
 
 const vegetablesData = [
@@ -105,7 +121,7 @@ const vegetablesData = [
   },
   {
     id: 2,
-    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727684210/alshimaa/pngwing.com_zukyag.png",
+    url: "https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727683939/alshimaa/red_onion_izfeij.png",
     product_name: "Red Onion",
     description:
       "The Red onion is a cured bulb onion with a deep purple, papery outer skin and slightly red tinted flesh. Red onion’s flavor ranges from sweet to pungent depending on its age and variety. This onion’s layers are thinner and crunchier compared to other onion varieties and therefore most commonly used for raw preparations.",

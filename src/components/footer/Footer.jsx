@@ -1,4 +1,4 @@
-import logo_picture from "../../assets/pictures/logo.jpg";
+import logo_picture from "../../assets/pictures/logo2.jpg";
 import facebook_icon from "../../assets/pictures/facebook_2504903.png";
 import whatsapp_icon from "../../assets/pictures/whatsapp_2504957.png";
 import mail_icon from "../../assets/pictures/mail_2772369.png";
@@ -12,7 +12,16 @@ function Footer() {
         >
           <div className={`col-span-1 flex justify-center items-center`}>
             <div className="flex flex-col items-center">
-              <img src={logo_picture} alt="LOGO" className="max-w-40" />
+              <div className="flex flex-col items-center justify-center gap-2">
+                <img
+                  src={logo_picture}
+                  alt="LOGO"
+                  className="w-36 h-36 rounded-full"
+                />
+                <h1 className="text-white font-OpenSansExtraBold text-4xl alshimaa-logo-title">
+                  Alshimaa
+                </h1>
+              </div>
               <h6 className="text-slate-200 text-xs my-8 text-center">
                 WE ALWAYS STRIVE TO SERVE YOU
               </h6>

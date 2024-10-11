@@ -84,6 +84,33 @@ animation-iteration-count: infinite;
 animation-direction: alternate-reverse;
 animation-timing-function:ease-in-out;
 }
+.alshimaa-logo-title {
+  animation-name: opacityAndColors;
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes opacityAndColors {
+  0%{
+    color: rgb(134 239 172);
+  }
+  20%{
+    color: #22c55e;
+  }
+  40%{
+    color: greenyellow;
+  }
+  60%{
+    color: rgb(134 239 172);
+  }
+  80%{
+    color: rgb(132 204 22);
+  }
+  100%{
+    color: rgb(20 184 166)
+  }
+}
 @keyframes moveOnSpace {
   10% {
     transform: translateX(-100px);
