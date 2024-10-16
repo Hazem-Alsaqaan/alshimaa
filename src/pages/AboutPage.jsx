@@ -20,10 +20,10 @@ function AboutPage() {
         />
         <meta
           name="keywords"
-          content="إنتاج المحاصيل الزراعية, تصدير الفواكه, الزراعة العضوية, محاصيل طازجة, جودة الفواكه, مزارع محلية, شحن دولي, منتجات زراعية, فواكه طازجة, خضروات طازجة, استيراد وتصدير, Agriculture products, fruit export, organic farming, fresh crops, fruit quality, local farms, international shipping, agricultural products, fresh fruits and vegetables, import and export"
+          content="إنتاج المحاصيل الزراعية, تصدير الفواكه, الزراعة العضوية, محاصيل طازجة, جودة الفواكه, مزارع محلية, شحن دولي, منتجات زراعية, فواكه طازجة, خضروات طازجة, استيراد وتصدير, الشيماء للمنتجات الزارعية, Agriculture products, fruit export, organic farming, fresh crops, fruit quality, local farms, international shipping, agricultural products, fresh fruits and vegetables, import and export"
         />
       </Helmet>
-      <div className="min-h-screen px-16 py-24 bg-green-50 max-md:px-6">
+      <div className="min-h-screen px-16 py-24 bg-green-50 max-md:px-6 select-none">
         <SectionTitle title={"About us"} />
         <div className="flex items-center">
           <div className="flex gap-1 max-md:flex-col">
@@ -73,9 +73,13 @@ function AboutPage() {
               </div>
             </div>
             <div className="  flex items-center justify-center">
-              <div className="w-52 h-52 rounded-full bg-green-50 border-8 border-solid border-green-900 overflow-hidden">
+              <div
+                onContextMenu={(e) => e.preventDefault()}
+                className="w-52 h-52 rounded-full bg-green-50 border-8 border-solid border-green-900 overflow-hidden"
+              >
                 <img
-                  src="https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727582344/alshimaa/005_dt5lke.jpg"
+                  src="https://res.cloudinary.com/dkhu7rt8n/image/upload/v1729094019/abdEllah_bmhvwe.jpg"
+                  // src="https://res.cloudinary.com/dkhu7rt8n/image/upload/v1727582344/alshimaa/005_dt5lke.jpg"
                   alt=""
                   className=" w-full h-full object-cover"
                 />

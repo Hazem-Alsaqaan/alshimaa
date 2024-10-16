@@ -69,10 +69,8 @@ function Footer() {
             <div className="flex items-center justify-center rounded-lg m-4 overflow-hidden">
               <iframe
                 className="w-96 h-96 max-sm:w-60 max-sm:h-60 rounded-2xl"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218801.53435689444!2d30.4682119!3d31.032546399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f66b18fd3c2593%3A0xfb8884b1e128f358!2z2LTYsdmD2Kkg2KfZhNij2LTYsdin2YEg2YTZhNi12YbYp9i52KfYqiDYp9mE2LrYsNin2KbZitip!5e0!3m2!1sar!2seg!4v1727758427491!5m2!1sar!2seg"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.7584809631326!2d30.441534384861296!3d31.032977981533513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f66baff3232ba9%3A0xfba5a8a4e6a440c8!2z2KfZhNi02YrZhdin2KEg2YTZhNmF2YbYqtis2KfYqiDYp9mE2LLYsdin2LnZitip!5e0!3m2!1sar!2seg!4v1729093487822!5m2!1sar!2seg"
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                // src="https://maps.google.com/maps?width=300&amp;height=300&amp;hl=en&amp;q=شركة+الأشراف+للصناعات+الغذائية&amp;t=&amp;z=5&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               ></iframe>
             </div>
           </div>

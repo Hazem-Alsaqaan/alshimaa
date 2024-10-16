@@ -15,7 +15,10 @@ function CountriesExports() {
       {/* <h1 className="text-center capitalize text-neutral-600">
         the countries we have previously exported to
       </h1> */}
-      <div className="flex items-center justify-center ">
+      <div
+        className="flex items-center justify-center select-none"
+        onContextMenu={(e) => e.preventDefault()}
+      >
         <img
           src="https://res.cloudinary.com/dkhu7rt8n/image/upload/v1728417258/alshimaa/316398386_11371425_eort2p.png"
           alt="alshimaa_world"
@@ -39,7 +42,10 @@ function CountriesExports() {
         className="mySwiper"
       >
         {countries.map((country) => (
-          <SwiperSlide key={country.title}>
+          <SwiperSlide
+            key={country.title}
+            onContextMenu={(e) => e.preventDefault()}
+          >
             <img src={country.photo} alt={country.title} />
             <p className="absolute bottom-1 left-1 text-neutral-100 text-xs [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
               {country.title}

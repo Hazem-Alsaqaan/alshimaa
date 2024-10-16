@@ -29,14 +29,7 @@ function DetailsProduct() {
     return <NotFoundPage />;
   }
   if (!singleItem) {
-    return (
-      // <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2 flex items-center justify-center">
-      //   <h1 className="text-green-500 text-3xl font-OpenSansBold">
-      //     loading...
-      //   </h1>
-      // </div>
-      <LoadingPages />
-    );
+    return <LoadingPages />;
   }
   return (
     <>
@@ -48,10 +41,10 @@ function DetailsProduct() {
         />
         <meta
           name="keywords"
-          content="إنتاج المحاصيل الزراعية, تصدير الفواكه, الزراعة العضوية, محاصيل طازجة, جودة الفواكه, مزارع محلية, شحن دولي, منتجات زراعية, فواكه طازجة, خضروات طازجة, استيراد وتصدير, Agriculture products, fruit export, organic farming, fresh crops, fruit quality, local farms, international shipping, agricultural products, fresh fruits and vegetables, import and export"
+          content="إنتاج المحاصيل الزراعية, تصدير الفواكه, الزراعة العضوية, محاصيل طازجة, جودة الفواكه, مزارع محلية, شحن دولي, منتجات زراعية, فواكه طازجة, خضروات طازجة, استيراد وتصدير, الشيماء للمنتجات الزارعية, Agriculture products, fruit export, organic farming, fresh crops, fruit quality, local farms, international shipping, agricultural products, fresh fruits and vegetables, import and export"
         />
       </Helmet>
-      <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2">
+      <div className="min-h-screen px-16 py-24 bg-neutral-50 max-md:px-6 max-sm:px-2 select-none">
         <SectionTitle title={singleItem ? singleItem.product_name : ""} />
         <div className="relative px-4 flex justify-center gap-y-4 gap-x-1 h-full w-full max-lg:flex-col max-lg:items-center">
           <div className="bg-yellow-50 rounded-2xl py-10 px-3 overflow-hidden flex items-center justify-center z-0 border-2 border-solid max-w-80 border-white shadow-2xl">

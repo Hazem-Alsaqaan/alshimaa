@@ -1422,20 +1422,3 @@ export {
   employeesData,
   countriesData,
 };
-
-// import fruit001 from "./src/assets/pictures/fruit001.png";
-// import fruit002 from "./src/assets/pictures/fruit002.png";
-// import fruit003 from "./src/assets/pictures/fruit003.png";
-// import fruit004 from "./src/assets/pictures/fruit004.png";
-// import fruit005 from "./src/assets/pictures/fruit005.png";
-// import fruit006 from "./src/assets/pictures/fruit006.png";
-// import fruit007 from "./src/assets/pictures/fruit007.png";
-// import veg001 from "./src/assets/pictures/veg001.png";
-// import veg002 from "./src/assets/pictures/veg002.png";
-// import veg003 from "./src/assets/pictures/veg003.png";
-// import veg004 from "./src/assets/pictures/veg004.png";
-// import veg005 from "./src/assets/pictures/veg005.png";
-// import veg006 from "./src/assets/pictures/veg006.png";
-// import veg007 from "./src/assets/pictures/veg007.png";
-// import veg008 from "./src/assets/pictures/veg008.png";
-// import veg009 from "./src/assets/pictures/veg009.png";

@@ -160,3 +160,13 @@ animation-timing-function:ease-in-out;
   width: 100px;
   background-color: transparent white;
 }
+
+
+/* custom media style */
+audio::-webkit-media-controls-panel {
+  background-color: #56AEFF;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+}
